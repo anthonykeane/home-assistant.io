@@ -50,6 +50,7 @@ To get the webhook url, go to the integrations page in the configuration screen 
 - Click "Save"
 - Go to "Fulfillment" (in the left menu)
 - Enable Webhook and set your Dialogflow webhook url as the endpoint, e.g., `https://myhome.duckdns.org/api/webhook/800b4cb4d27d078a8871656a90854a292651b20635685f8ea23ddb7a09e8b417`
+( you generate your URL in Home Assistant from the Configuration > Intergration > Set up a new integration > DialogFlow )
 - Click "Save"
 - Create a new intent
 - Below "User says" write one phrase that you, the user, will tell Dialogflow, e.g., `What is the temperature at home?`
